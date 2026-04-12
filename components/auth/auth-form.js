@@ -36,7 +36,7 @@ function AuthForm() {
     const enteredPassword = passwordInputRef.current.value;
 
     if (isLogin) {
-      //log user im
+      //log user in
     } else {
       try {
         const result = await createUser(enteredEmail, enteredPassword);
